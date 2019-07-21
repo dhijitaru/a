@@ -106,4 +106,4 @@ https://sorabatake.jp/5518/
 サンプルコードの部分を参考にした
 
 実行の様子
-![](digital.gif)
+![digital.gif](digital.gif)
