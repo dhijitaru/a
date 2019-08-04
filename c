@@ -93,3 +93,28 @@ fig2.canvas.mpl_connect('motion_notify_event', onclick)
 fig2.canvas.mpl_connect('button_release_event', onrelease)
 fig2.canvas.mpl_connect('key_press_event', onkey)
 
+説明
+画像の読み込み
+clicklogの初期化
+フーリエ変換
+逆フーリエ変換
+過去のクリックした座標のデータを1、それ以外を0で記録
+sin波の切り抜き
+sin波の合成
+クリック時の処理
+左クリック&ドラッグ時の挙動
+qを押したら終了
+指を離したら計算を実行する(高負荷を回避, リアルタイムではなくなる)
+画像を表示
+
+使い方　コードをジュピターに載せる
+実行の仕方　figure2の画像を左クリックorドラッグ
+ライブラリとバージョン
+numpy                     1.16.4           py37h19fb1c0_0
+matplotlib                3.1.0            py37hc8f65d3_0
+
+参考
+http://labs.eecs.tottori-u.ac.jp/sd/Member/oyamada/OpenCV/html/py_tutorials/py_imgproc/py_transforms/py_fourier_transform/py_fourier_transform.html
+https://www.hello-python.com/2018/02/16/numpy%E3%81%A8opencv%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%94%BB%E5%83%8F%E3%81%AE%E3%83%95%E3%83%BC%E3%83%AA%E3%82%A8%E5%A4%89%E6%8F%9B%E3%81%A8%E9%80%86%E5%A4%89%E6%8F%9B/
+
+実行の様子
